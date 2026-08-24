@@ -95,7 +95,8 @@ Direct-mode unit tests via `gltest` (in-memory, no Docker/network). The
 non-deterministic path is exercised end-to-end with mocked web + LLM responses.
 
 ```bash
-/home/ubuntu/genlayer-escrow-app/.venv/bin/python -m pytest tests/ -v
+pip install py-genlayer
+python -m pytest tests/ -v
 ```
 
 **12/12 passing**, covering: open success, empty-evidence revert, self-respondent
