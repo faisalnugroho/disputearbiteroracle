@@ -1,0 +1,33 @@
+{
+  "contract_address": "0xC977FB298bfE87457467faDdAce398D4533E98c9",
+  "open_dispute_tx": "0xb4e475976231ec63f3f4af708c03304d9bd1a1226446b1bdd5b958e642b27a4a",
+  "submit_evidence_tx": "0xb9aedd1397b13c8ec471eb9f2fee4c9fdba8c1e55aa7a5adfe8bc3471007dc7a",
+  "resolve_dispute_tx": "0xfcc360ec9c04eeaabf743331b6bc8d9041a782abcfd9a3fd3f3a86c7e1f6781d",
+  "resolve_status": "ACCEPTED",
+  "resolve_result": "MAJORITY_AGREE",
+  "validator_votes": {
+    "0x3D61C8317CDC72AB1eE5fdeD8B0F3a83bac20c14": "agree",
+    "0x49Ec8A8FcB3075656461317d3F995CB4713D18E4": "idle",
+    "0x4DcAE2871cAc82dA355C4656ee2b7EF1Af52C40c": "agree",
+    "0x77AcceF9eb2B11DA3D2071F2fBC2396AD941f697": "idle",
+    "0xA628666C76158eEB0a2404A685a332dF49082CDA": "agree"
+  },
+  "resolved_dispute": {
+    "client": "<memory at 0x76f8a8bf1a80>",
+    "client_claim": "I hired the freelancer to deliver a responsive landing page by Friday. I paid the full 500 USDT deposit up front. The deadline passed and no working page was delivered \u2014 only a single static screenshot. I want my deposit refunded.",
+    "created_at": 1787552225,
+    "dispute_id": 1,
+    "evidence_urls": [
+      "https://raw.githubusercontent.com/genlayerlabs/genlayer-project-boilerplate/main/README.md",
+      "https://raw.githubusercontent.com/genlayerlabs/genlayer-project-boilerplate/main/CLAUDE.md",
+      "https://raw.githubusercontent.com/genlayerlabs/genlayer-project-boilerplate/main/.gitignore"
+    ],
+    "reasoning_summary": "The evidence is unrelated boilerplate repo files and does not prove delivery, deadline compliance, or nonperformance. Claims are unsupported, so the dispute is inconclusive.",
+    "refund_percentage": 50,
+    "resolved_at": 1787552238,
+    "respondent": "<memory at 0x76f8a8bf1900>",
+    "respondent_claim": "I delivered the landing page on time and sent the link plus a demo video. The client stopped responding and never confirmed receipt. The work is complete, so the deposit should be released to me, not refunded.",
+    "status": "resolved",
+    "verdict": "split"
+  }
+}

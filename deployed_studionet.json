@@ -1,0 +1,12 @@
+{
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract_address": "0xC977FB298bfE87457467faDdAce398D4533E98c9",
+  "deployer_address": "0x1461bd50b5F35fb94BF40500F398eE9F8eE3613f",
+  "tx_hash": "0xee54a6d84a6c3fee86394fd43ccf6ed6bbc790a65dbd06afde69115483bcc41c",
+  "status_name": "ACCEPTED",
+  "sdk_version": "v0.2.16",
+  "explorer": "https://explorer-studio.genlayer.com",
+  "verify_get_disputes_by_party": [],
+  "verified_onchain": true
+}
